@@ -15,7 +15,7 @@ header{
     width: 100%;
     height: 80px;
     box-sizing: border-box;
-    background: rgba(240, 147, 147, 0.411);
+    background: rgba(236, 118, 50, 0.849);
     box-shadow: 0 5px 15px rgba(0,0,0,.2);
     transition: 0.5s;
 }
@@ -47,7 +47,7 @@ ul li a{
     transition: 0.5s;
 }
 ul li a:hover{
-    background: rgb(230, 4, 4);
+    background: rgb(246, 96, 3);
     color: #ffffff;
 }
 .toggle{
@@ -148,12 +148,12 @@ ul li a:hover{
     background-position: center;
 }
 .container .slider .slide.slide2{
-    background: url(hambuger1.png);
+    background: url(banhmi1.jpg);
     background-size: cover;
     background-position: center;
 }
 .container .slider .slide.slide3{
-    background: url(garan1.jpg);
+    background: url(hambuger1.png);
     background-size: cover;
     background-position: center;
 }
