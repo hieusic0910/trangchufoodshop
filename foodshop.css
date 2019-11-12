@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    text-decoration: none;}
+    text-decoration: none !important;}
     section{
         display: block;
         position: relative;
