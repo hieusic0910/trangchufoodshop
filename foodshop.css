@@ -4,7 +4,7 @@
 .outlay {
     justify-content: space-around;
     align-items: center;
-    height: 500px!important;
+    /* height: 500px!important; */
 }
 .box1 {
     position: relative;
@@ -70,7 +70,11 @@ line-height: 1.34;
     margin: 20px 0 0 0;
 }
 .copyright p {
-    margin: 10px 0 10px 0;
+    margin: 10px 0 10px 800px;
     display: block;
-    margin-inline-start: 800px
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
