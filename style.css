@@ -45,8 +45,13 @@ ul li{
 ul li a{
     position: relative;
     display: block;
+<<<<<<< HEAD
+    padding: 15px 25px;
+    margin: 15px 0;
+=======
     padding:    20px 25px;
     margin: 6px 0;
+>>>>>>> a8a6a6e034c75ae0c7c5084ab072012b593a95e3
     text-transform: uppercase;
     text-decoration: none;
     color: #262626;
@@ -71,9 +76,9 @@ ul li a:hover{
     
 }
 .toggle:hover{
-   background: rgb(230, 4, 4);
-   color: #ffffff;
-   transition: 0.5s;
+    background: rgb(230, 4, 4);
+    color: #ffffff;
+    transition: 0.5s;
 }
 @media(max-width: 992px){
     .logo{
@@ -208,16 +213,13 @@ ul li a:hover{
 }
 @media (max-width:992px){
     .container .slider .slide .caption{
-        
         bottom: 20px;
         left: 20px;
         right: 20px;
         padding: 20px;
-       
-    }
+}
     .container .slider .slide .caption h2{
         margin: 0 0 10px;
-        
         font-size: 40px;
     }
     .container .slider .slide .caption p{
@@ -227,3 +229,4 @@ ul li a:hover{
         font-size: 25px;
     }
 }
+

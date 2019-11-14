@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+.frontPage {
+    background-color: red;
+}
+.outlay {
+=======
 body{
     margin: 0;
     padding: 0;
@@ -115,6 +121,7 @@ ul li a:hover{
     }
 .outlay 
 {
+>>>>>>> a8a6a6e034c75ae0c7c5084ab072012b593a95e3
     justify-content: space-around;
     align-items: center;
     /* height: 500px!important; */
@@ -183,8 +190,19 @@ line-height: 1.34;
     margin: 20px 0 0 0;
 }
 .copyright p {
+<<<<<<< HEAD
+    margin: 10px 0 10px 800px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+=======
     margin: 10px 0 10px 0;
     display: block;
     margin-inline-start: 800px
 }
 }
+>>>>>>> a8a6a6e034c75ae0c7c5084ab072012b593a95e3
