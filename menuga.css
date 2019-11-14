@@ -70,7 +70,7 @@ box-sizing: border-box;
     font-size: 30px;
     color: #494949;
     font-family: sans-serif;
-    margin: 25px 0 25px 15px;
+    margin: 25px 0 25px 40px;
     float: left;
     width: 100%;
     font-weight: bold;
@@ -146,29 +146,7 @@ p {
     }
     
     
-    .footer {
-        margin: 100px 0 0 0;
-    }
-    .social {
-        width: 40px;
-        height: auto;
-        float: left;
-        margin: 30px 10px 0 0;
-    }
-    .copyright {
-        background-color: black;
-        color: #ffffff;
-        font-family: 'OpenSans-Light';
-        font-size: 16px;
-        width: 100%;
-        text-align: right;
-        margin: 20px 0 0 0;
-    }
-    .copyright p {
-        margin: 10px 0 10px 0;
-        display: block;
-        margin-inline-start: 800px
-    }
+   
     
 /* @media (min-width: 1200px){
 .container {
@@ -210,7 +188,14 @@ p {
         float: left;
     }
 }
-
+@media (max-width: 992px){
+    .tbox-item-middle .tbutton-food-combo-carousel{
+        width: 75%;
+    }}
+@media (max-width: 992px){
+    .tbox-item-middle.tlist-food .titem-middle{
+    height :75% ;
+}}
 header{
     
     padding: 7px 100px;
