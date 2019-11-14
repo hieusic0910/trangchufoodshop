@@ -98,7 +98,7 @@ p {
 }
 .timg-food-combo-carousel.tlist-food {
     width: calc(100% - 30px);
-    margin: 15px 0 0 50%;
+    margin: 15px 0 -21px 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
 }
@@ -135,7 +135,7 @@ p {
     -o-border-radius: 999px;
     text-transform: uppercase;
     padding: 9px 0 10px 0;
-    margin: -20px 0 0 50%;
+    margin: -20px -5px 0 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -195,6 +195,12 @@ p {
 @media (max-width: 992px){
     .tbox-item-middle.tlist-food .titem-middle{
     height :75% ;
+    
+}}
+@media (max-width: 480px){
+    .tbox-item-middle.tlist-food .titem-middle{
+    height :110% ;
+    
 }}
 header{
     
