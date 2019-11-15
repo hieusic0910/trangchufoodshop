@@ -51,11 +51,7 @@ box-sizing: border-box;
     margin-right: auto;
     margin-left: auto;
 }
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-    
-}
+
 .col-md-3{
     float: S;
 }

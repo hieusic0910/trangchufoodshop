@@ -8,7 +8,7 @@ body {
     background: #fff;
     height: auto !important;
 }
-section{
+.section{
     display: block;
 }
 
@@ -27,10 +27,7 @@ section{
 }
 .tbox-slider-1.combo .tcontainer-text-block{
     height: 500px;}
-.container:before{
-    display: table;
-    content: " ";
-}
+
 .tbox-slider .tarticle-block {
     position: absolute;
     left: 15px;
@@ -42,31 +39,14 @@ section{
     -o-transform: translateY(-50%);
     width: 100%;
 }
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-.row:before{
-    display: table;
-    content: " ";
-}
-.col-md-12 .col-sm-12{
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
+
 .img-responsive{
     display: block;
     width: 100%;
     max-width: 100%;
     height: auto;
 }
-.row:after{
-    clear: both;
-    display: table;
-    content: " ";
-}
+
 .ttitle-head-combo-2 {
     font-size: 36px;
     color: #ffffff;
@@ -132,7 +112,7 @@ p {
     header{
     
         padding: 7px 100px;
-        width: 100%;
+        width: 100vw;
         height: 85px;
         box-sizing: border-box;
         background: rgb(250, 71, 39);
@@ -233,27 +213,6 @@ p {
     
     }
     
-    .container {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .row {
-        margin-right: -15px;
-        margin-left: -15px;
-        
-    }
-    .col-md-3{
-        float: S;
-    }
-    .col-md-12{
-        position: relative;
-        min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
-        float: left;
-    }
     .ttitle-stores {
         font-size: 30px;
         color: #494949;
@@ -357,21 +316,6 @@ p {
             display: block;
             margin-inline-start: 800px
         }
-        
-    /* @media (min-width: 1200px){
-    .container {
-        width: 1170px;x
-    }
-    }
-    @media (min-width: 992px){
-    .container {
-        width: 970px;
-    }
-    }
-    @media (min-width: 768px){
-    .container {
-        width: 750px;
-    } */
     
         @media (min-width: 768px){
         .col-md-3 {
@@ -401,7 +345,7 @@ p {
     @media (max-width: 768px){
 .tbox-slider-1.combo, .tbox-slider-1.combo .tcontainer-text-block {
     height: auto;
-    margin: 85px 0 0 0;
+    margin: 85px 0px 0 0;
     padding: 0;
   display: block;}
     }
