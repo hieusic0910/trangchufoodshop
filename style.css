@@ -45,13 +45,8 @@ ul li{
 ul li a{
     position: relative;
     display: block;
-<<<<<<< HEAD
-    padding: 15px 25px;
-    margin: 15px 0;
-=======
     padding:    20px 25px;
     margin: 6px 0;
->>>>>>> a8a6a6e034c75ae0c7c5084ab072012b593a95e3
     text-transform: uppercase;
     text-decoration: none;
     color: #262626;
