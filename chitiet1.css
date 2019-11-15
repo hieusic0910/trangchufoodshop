@@ -136,8 +136,8 @@ p {
         background: rgb(236, 118, 50);
         box-shadow: 0 5px 15px rgba(0,0,0,.2);
         transition: 0.5s;
-        
-       
+        z-index: 1;
+      
     }
     .logo{
         padding: 0 0;
@@ -170,6 +170,7 @@ p {
     ul li a:hover{
         background: rgb(246, 96, 3);
         color: #ffffff;
+        text-decoration: none !important;
     }
     .toggle{
         display: none;
@@ -203,8 +204,10 @@ p {
         {
             padding: 7px 0;
             background: rgb(236, 118, 50);
-            ;
-            
+           
+            position: fixed;
+            top:0;
+            left: 0;
         }
         header ul
         {
@@ -227,40 +230,7 @@ p {
         }
     
     }
-    .navbar-light .navbar-nav .nav-link {
-        color: rgb(0, 0, 0);
-        font-weight: 500;
-        padding: 20px 25px;
-    }
-    .container-fluid {
-        width: 100%;
-        padding-right: 40px;
-        padding-left: 40px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .navbar {
-        padding: 5px 30px 5px 30px;
-        width: 100%;
-        font-size: 16px;
-        font-weight: 500;
-        background-color: rgb(250, 126, 10) !important;
-        box-sizing: border-box;
-        box-shadow: 0 5px 15px rgba(0,0,0,.2);
-        text-transform: uppercase;
-    }
-   
-    .navbar li a:hover{
-        background: rgb(255, 87, 9);
-        transition: 0.5s;
-        color: #ffffff !important;
-        
-    }
-    .nav-item{
-        
-        padding: 5px 10px 5px 10px;
-        
-    }
+    
     .container {
         padding-right: 15px;
         padding-left: 15px;
@@ -426,3 +396,29 @@ p {
             float: left;
         }
     }
+    @media (max-width: 768px){
+.tbox-slider-1.combo, .tbox-slider-1.combo .tcontainer-text-block {
+    height: auto;
+    margin: 85px 0 0 0;
+    padding: 0;
+  display: block;}
+    }
+    @media (max-width: 768px){
+    .tbox-slider-1.combo .tcontainer-text-block .tarticle-block {
+        position: relative;
+        float: left;
+        height: auto;
+        left: 15px;
+        top: 0;
+        width: calc(100% - 15px);
+        transform: none;
+        -webkit-transform: none;}}
+        @media (max-width: 480px){
+.tbox-slider-1.combo .tcontainer-text-block .tarticle-block {
+    width: 100%;
+    left: 0;
+}}
+@media (max-width: 768px){
+.tbox-slider-1.combo {
+    overflow: hidden;
+}}
