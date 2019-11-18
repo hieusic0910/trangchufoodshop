@@ -3,48 +3,26 @@ font-family: sans-serif;
 text-decoration: none;
 box-sizing: border-box;
 }
-.navbar-light .navbar-nav .nav-link {
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    padding: 20px 25px;
-}
-.container-fluid {
+section{
     width: 100%;
-    padding-right: 40px;
-    padding-left: 40px;
-    margin-right: auto;
-    margin-left: auto;
+    color: #ffffff;
+    background: linear-gradient(-45deg,#EE7752,#E73C7E,#23A6d5,#23A5AB);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
 }
-.navbar {
-    padding: 5px 30px 5px 30px;
-    width: 100%;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: rgb(250, 126, 10) !important;
-    box-sizing: border-box;
-    box-shadow: 0 5px 15px rgba(0,0,0,.2);
-    text-transform: uppercase;
+@keyframes change {
+    0%{
+        background-size: 0 50%;
+    }
+    50%{
+        background-size: 100% 50%;
+    }
+    100%{
+        background-size: 0 50%;
+    }
 }
-/* .navbar li{
-    margin: 0px 0px;
-    padding: 0px 0px;
-}
-.navbar li a{
-    padding:    20px 25px;
-    margin: 6px 0;
-    color: #000000;
-} */
-.navbar li a:hover{
-    background: rgb(255, 87, 9);
-    transition: 0.5s;
-    color: #ffffff !important;
-    
-}
-.nav-item{
-    
-    padding: 5px 10px 5px 10px;
-    
-}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -143,21 +121,6 @@ p {
     
     
    
-    
-/* @media (min-width: 1200px){
-.container {
-    width: 1170px;x
-}
-}
-@media (min-width: 992px){
-.container {
-    width: 970px;
-}
-}
-@media (min-width: 768px){
-.container {
-    width: 750px;
-} */
 
     @media (min-width: 768px){
     .col-md-3 {

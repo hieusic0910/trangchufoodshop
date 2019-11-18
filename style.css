@@ -125,7 +125,7 @@ ul li a:hover{
     left: 0;
     width: 500%;
     height:100%;
-    animation: animate 10s linear infinite;
+    animation: animate 10s ease-out infinite;
     animation-duration: 15s;
     
 }
