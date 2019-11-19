@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 section{
     background: linear-gradient(#EE7752,rgb(213, 186, 35));
-   
+   height: 100%;
 }
 /* @keyframes change {
     0%{
