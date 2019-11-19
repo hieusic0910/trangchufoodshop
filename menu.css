@@ -4,7 +4,7 @@ text-decoration: none;
 box-sizing: border-box;
 }
 section{
-    background: linear-gradient(#EE7752,rgb(213, 186, 35));
+    background: linear-gradient(rgb(243, 152, 78),rgb(213, 186, 35));
    height: 100%;
 }
 /* @keyframes change {
@@ -75,7 +75,7 @@ p {
 }
 .tbox-item-middle.tlist-food {
     height: 400px;
-    margin: 20px 0 -15px 0;
+    margin: -15px 0 0px 0;
 }
 .titem-middle:hover {
  box-shadow: 0px 1px 10px 0px #a1a1a1;
@@ -151,7 +151,7 @@ p {
    
     @media (max-width: 480px){
 .owl-carousel.tcombo.owl-drag .owl-item, .tbox-item-middle.tlist-food {
-    height: 260px;
+    height: 331px;
 }}
 @media (max-width: 768px){
 .tbox-item-middle.tlist-food {
@@ -175,9 +175,10 @@ p {
 }}
 @media (max-width: 480px){
     .tbox-item-middle.tlist-food .titem-middle{
-    height :110% ;
+    height :90% ;
     
 }}
+
 header{
     
     padding: 7px 100px;
@@ -255,7 +256,8 @@ ul li a:hover{
     {
         padding: 7px 0;
         background: rgb(236, 118, 50);
-        z-index: 1;
+       
+            
         
     }
     header ul
@@ -280,7 +282,7 @@ ul li a:hover{
 
 }
 .footer {
-    margin: 100px 0 0 0;
+    margin: 60px 0 0 0;
 }
 .social {
     width: 40px;
@@ -296,6 +298,7 @@ ul li a:hover{
     width: 100%;
     text-align: right;
     margin: 20px 0 0 0;
+  
 }
 
 .copyright p {

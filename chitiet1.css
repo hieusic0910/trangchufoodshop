@@ -213,11 +213,23 @@ p {
     
     }
     
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .col-md-3{
+        float: S;
+    }
+    
+    
     .ttitle-stores {
         font-size: 30px;
         color: #494949;
         font-family: sans-serif;
-        margin: 25px 0 25px 15px;
+        margin: 25px 0 25px 40px;
         float: left;
         width: 100%;
         font-weight: bold;
@@ -245,7 +257,7 @@ p {
     }
     .timg-food-combo-carousel.tlist-food {
         width: calc(100% - 30px);
-        margin: 15px 0 0 50%;
+        margin: 15px 0 -25px 50%;
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
     }
@@ -282,7 +294,7 @@ p {
         -o-border-radius: 999px;
         text-transform: uppercase;
         padding: 9px 0 10px 0;
-        margin: -20px 0 0 50%;
+        margin: -20px -5px 0 50%;
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
         -moz-transform: translateX(-50%);
@@ -293,8 +305,51 @@ p {
         }
         
         
+       
+    
+        @media (min-width: 768px){
+        .col-md-3 {
+            width: 25%;}
+        }
+        @media (min-width: 992px) {
+            .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+              float: left;
+            }
+        }
+       
+        @media (max-width: 480px){
+    .owl-carousel.tcombo.owl-drag .owl-item, .tbox-item-middle.tlist-food {
+        height: 331px;
+    }}
+    @media (max-width: 768px){
+    .tbox-item-middle.tlist-food {
+        width: 50%;
+        float: left;
+    }}
+    @media (min-width: 768px){
+        .tbox-item-middle.tlist-food {
+            width: 100%;
+            float: left;
+        }
+    }
+    @media (max-width: 992px){
+        .tbox-item-middle .tbutton-food-combo-carousel{
+            width: 75%;
+        }}
+    @media (max-width: 992px){
+        .tbox-item-middle.tlist-food .titem-middle{
+        height :75% ;
+        
+    }}
+    @media (max-width: 480px){
+        .tbox-item-middle.tlist-food .titem-middle{
+        height :90% ;
+        
+    }}
+        
+        
         .footer {
-            margin: 100px 0 0 0;
+            margin: 80px 0 0 0;
         }
         .social {
             width: 40px;
@@ -371,4 +426,10 @@ p {
 section{
     background: linear-gradient(#EE7752,rgb(213, 186, 35));
    height: 100%;
+}
+@media(max-width:480px)
+{
+    .tname-food-combo-carousel{
+        margin: 30px 0 -15px 0;
+    }
 }
