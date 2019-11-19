@@ -1,3 +1,6 @@
+*{
+    text-decoration: none;
+}
 body{
     margin: 0;
     padding: 0;
@@ -157,7 +160,7 @@ ul li a:hover{
     font-size: 30px;
 }
 .container .slider .slide.slide1{
-    background: url(garan1.jpg);
+    background: url(garan2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -167,9 +170,9 @@ ul li a:hover{
     background-position: center;
 }
 .container .slider .slide.slide3{
-    background: url(hambuger1.png);
+    background: url(burgerbo.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 .container .slider .slide.slide4{
     background: url(garan1.jpg);
@@ -224,30 +227,75 @@ ul li a:hover{
         font-size: 25px;
     }
 }
-.footer {
-    margin: 100px 0 0 0;
-}
-.social {
-    width: 40px;
-    height: auto;
-    float: left;
-    margin: 30px 10px 0 0;
-}
-.copyright {
-    background-color: black;
-    color: #ffffff;
-    font-family: 'OpenSans-Light';
-    font-size: 16px;
+.footer-main-div{
     width: 100%;
-    text-align: right;
-    margin: 20px 0 0 0;
-}
+    height:auto;
+    margin: auto;
+    background: #272727;
+    padding: 20px 0;
 
-.copyright p {
-    margin: 10px 0 10px 800px;
+}
+.footer-social-icons{
+    width:100%;
+    height: auto;
+    margin: auto;
+   
+}
+.footer-social-icons ol{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-social-icons ol li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: rgba(253, 122, 46, 0.938);
+}
+.footer-social-icons ol li a{
+    color: #272727;
+    font-size: 25px;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+}
+.footer-social-icons ol li a i{
+    line-height: 50px;
+}
+.footer-menu-one{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.footer-menu-one ol{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-menu-one ol li{
+    display: inline-block;
+    margin: 0px 18px;
+}
+.footer-menu-one ol li a{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.footer-bottom{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #f85b1d;
+    padding: 1px;
+}
+.footer-bottom p{
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
