@@ -226,6 +226,7 @@ ul li a{
     font-weight: bold;
     transition: 0.5s;
 }
+
 ul li a:hover{
     background: rgb(246, 96, 3);
     color: #ffffff;

@@ -244,6 +244,7 @@ p {
     .tbox-item-middle.tlist-food {
         height: 400px;
         margin: 20px 0 -15px 0;
+        padding: 10px 15px;
     }
     .titem-middle:hover {
      box-shadow: 0px 1px 10px 0px #a1a1a1;

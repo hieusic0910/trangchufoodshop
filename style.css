@@ -56,6 +56,24 @@ ul li a{
     font-weight: bold;
     transition: 0.5s;
 }
+.about{
+    position: relative;
+    display: block;
+    padding:    20px 25px;
+    margin: 6px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #262626;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+ul li a i{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-size: 10px;
+}
+
 ul li a:hover{
     background: rgb(246, 96, 3);
     color: #ffffff;
@@ -73,11 +91,7 @@ ul li a:hover{
     margin:-15px
     
 }
-.toggle:hover{
-    background: rgb(230, 4, 4);
-    color: #ffffff;
-    transition: 0.5s;
-}
+
 @media(max-width: 992px){
     .logo{
         padding: 10px 0;
@@ -94,6 +108,9 @@ ul li a:hover{
         background: rgb(236, 118, 50);
         /* z-index: 1; */
         
+    }
+    .about{
+        margin: 0px 0px;
     }
     header ul
     {
