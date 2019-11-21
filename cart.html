@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="cart_style.css">
     <link rel="stylesheet" href="menu.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Cart</title>
 </head>
 
@@ -20,26 +21,24 @@
             <li><a href="#">Bánh Mì</a></li>
             <li><a href="#">Đồ Uống</a></li>
             <li><a href="#">About Us</a></li>
-            <li>
-                <a href="cart.html" target="_blank">Cart</a>
-            </li>
+            <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
         </ul>
     </header>
     <script src="cart_button.js"></script>
     <script src="receive.js"></script>
     <section class="container content-section">
-        <h2 class="section-header">CART</h2>
+        <h2 class="section-header">Giỏ hàng</h2>
         <div class="cart-row">
-            <span class="cart-item cart-header cart-column">ITEM</span>
-            <span class="cart-price cart-header cart-column">PRICE</span>
-            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            <span class="cart-item cart-header cart-column">Món</span>
+            <span class="cart-price cart-header cart-column">Giá</span>
+            <span class="cart-quantity cart-header cart-column">Số lượng</span>
         </div>
         <div class="cart-items"></div>
         <div class="cart-total">
-            <strong class="cart-total-title">Total</strong>
+            <strong class="cart-total-title">Tổng cộng</strong>
             <span class="cart-total-price">0 VND</span>
         </div>
-        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        <button class="btn btn-primary btn-purchase" type="button">Thanh toán</button>
     </section>
 
     <div class="footer-main-div">

@@ -10,7 +10,7 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color: #777;
+    color: rgb(0, 0, 0);
 }
 
 html,
@@ -79,14 +79,18 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
+    margin: 109px 200px;    
+
 }
 
 .section-header {
-    font-family: "Metal Mania";
+    font-family: sans-serif;
     font-weight: normal;
     color: #333;
     text-align: center;
     font-size: 2.5em;
+    padding: 15px 0px;
+    
 }
 
 .about-band-image {
@@ -98,7 +102,7 @@ body {
 }
 
 .main-footer {
-    background-color: #56CCF2;
+    background-color: rgb(245, 53, 6);
     color: white;
     padding: .25em 0;
 }
@@ -159,7 +163,7 @@ body {
 
 .btn-primary {
     color: white;
-    background-color: #56CCF2;
+    background-color: rgb(255, 10, 10);
     border: none;
     border-radius: .3em;
     font-weight: bold;
@@ -171,6 +175,8 @@ body {
 
 .btn-primary:hover {
     background-color: #2D9CDB;
+    transform: scale(1.1);
+    transition: 0.5s;    
 }
 
 .tour-row {
