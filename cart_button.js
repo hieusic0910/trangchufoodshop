@@ -29,7 +29,7 @@ function ready() {
 
 function purchaseClicked() {
     localStorage.clear();
-    alert('Thank you for your purchase')
+    alert('Thanh Toán Thành Công')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)

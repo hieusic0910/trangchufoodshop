@@ -212,6 +212,18 @@ p {
         }
     
     }
+    .about {
+        position: relative;
+        display: block;
+        padding: 20px 25px;
+        margin: 6px 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #262626;
+        font-weight: bold;
+        transition: 0.5s;
+        cursor: pointer;
+    }
     
     .container {
         padding-right: 15px;
