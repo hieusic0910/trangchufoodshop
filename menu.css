@@ -1,12 +1,15 @@
-*{
-font-family: sans-serif;
-text-decoration: none;
-box-sizing: border-box;
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
 }
-section{
-    background: linear-gradient(rgb(243, 152, 78),rgb(213, 186, 35));
-   height: 100%;
+
+section {
+    background: linear-gradient(rgb(243, 152, 78), rgb(213, 186, 35));
+    height: 100%;
 }
+
+
 /* @keyframes change {
     0%{
         background-size: 0 50%;
@@ -47,16 +50,18 @@ section{
     margin-left: auto;
 }
 
-.col-md-3{
+.col-md-3 {
     float: S;
 }
-.col-md-12{
+
+.col-md-12 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
     float: left;
 }
+
 .ttitle-stores {
     font-size: 30px;
     color: #494949;
@@ -66,6 +71,7 @@ section{
     width: 100%;
     font-weight: bold;
 }
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -73,26 +79,30 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
 .tbox-item-middle.tlist-food {
     height: 400px;
     margin: 15px 0 24px 0;
 }
+
 .titem-middle:hover {
- box-shadow: 0px 1px 10px 0px #a1a1a1;
- 
- transition: 0.5s;
+    box-shadow: 0px 1px 10px 0px #a1a1a1;
+    transition: 0.5s;
 }
-.tbox-item-middle.tlist-food .titem-middle{
+
+.tbox-item-middle.tlist-food .titem-middle {
     width: 100%;
     height: 95%;
     float: left;
 }
+
 .timg-food-combo-carousel.tlist-food {
     width: calc(100% - 30px);
     margin: 15px 0 -21px 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
 }
+
 .tname-food-combo-carousel {
     width: 100%;
     float: left;
@@ -104,12 +114,14 @@ p {
     height: auto;
     min-height: 92px;
 }
+
 .img-responsive {
     display: block;
     width: 100%;
     max-width: 100%;
     height: auto;
 }
+
 .tbox-item-middle .tbutton-food-combo-carousel {
     display: inline-block;
     width: 160px;
@@ -133,92 +145,110 @@ p {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     text-decoration: none;
-    
-    }
-    
-    
-   
+}
 
-    @media (min-width: 768px){
+@media (min-width: 768px) {
     .col-md-3 {
-        width: 25%;}
+        width: 25%;
     }
-    @media (min-width: 992px) {
-        .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-          float: left;
-        }
+}
+
+@media (min-width: 992px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+        float: left;
     }
-   
-    @media (max-width: 480px){
-.owl-carousel.tcombo.owl-drag .owl-item, .tbox-item-middle.tlist-food {
-    height: 295px;
-    margin: -5px 0px;
-}}
-@media (max-width: 768px){
-.tbox-item-middle.tlist-food {
-    width: 50%;
-    float: left;
-}}
-@media (min-width: 768px){
+}
+
+@media (max-width: 480px) {
+    .owl-carousel.tcombo.owl-drag .owl-item,
+    .tbox-item-middle.tlist-food {
+        height: 295px;
+        margin: -5px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tbox-item-middle.tlist-food {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) {
     .tbox-item-middle.tlist-food {
         width: 100%;
         float: left;
     }
 }
-@media (max-width: 992px){
-    .tbox-item-middle .tbutton-food-combo-carousel{
-        width: 85%;
-    }}
-    @media (max-width: 992px){
-        .tbox-item-middle.tlist-food {
-            height: 324px;
-            margin: -25px 0 28px 0;
-        }
-    }    
-@media (max-width: 992px){
-    .tbox-item-middle.tlist-food .titem-middle{
-    height :85% ;
-    
-}}
-@media (max-width: 480px){
-    .tbox-item-middle.tlist-food .titem-middle{
-    height :90% ;
-    
-}}
 
-header{
-    
+@media (max-width: 992px) {
+    .tbox-item-middle .tbutton-food-combo-carousel {
+        width: 85%;
+    }
+}
+
+@media (max-width: 992px) {
+    .tbox-item-middle.tlist-food {
+        height: 324px;
+        margin: -25px 0 28px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .tbox-item-middle.tlist-food .titem-middle {
+        height: 85%;
+    }
+}
+
+@media (max-width: 480px) {
+    .tbox-item-middle.tlist-food .titem-middle {
+        height: 90%;
+    }
+}
+
+header {
     padding: 7px 100px;
     width: 100%;
     height: 85px;
     box-sizing: border-box;
     background: rgb(236, 118, 50);
-    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
     transition: 0.5s;
-    
-  
 }
-.logo{
+
+.logo {
     padding: 0 0;
     margin: 0 0;
-    
 }
-ul{
-    position: relative;
-    margin:0px;
-    padding: 0;
-    display:flex ;
-    float: right;
-    transition: 0.5s; 
-}
-ul li{
-    list-style: none;
 
+ul {
+    position: relative;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    float: right;
+    transition: 0.5s;
 }
-ul li a{
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
     position: relative;
     display: block;
-    padding:    20px 25px;
+    padding: 20px 25px;
     margin: 6px 0;
     text-transform: uppercase;
     text-decoration: none;
@@ -227,99 +257,92 @@ ul li a{
     transition: 0.5s;
 }
 
-ul li a:hover{
+ul li a:hover {
     background: rgb(246, 96, 3);
     color: #ffffff;
     text-decoration: none !important;
 }
-.toggle{
+
+.toggle {
     display: none;
     position: absolute;
-    right:24px;
-    top:22px;
+    right: 24px;
+    top: 22px;
     /* background: #f00; */
-    color:  #262626;
+    color: #262626;
     cursor: pointer;
-    padding:22px 27px;
+    padding: 22px 27px;
     font-weight: bold;
-    margin:-15px
-    
+    margin: -15px
 }
-.toggle:hover{
-   background: rgb(230, 4, 4);
-   color: #ffffff;
-   transition: 0.5s;
+
+.toggle:hover {
+    background: rgb(230, 4, 4);
+    color: #ffffff;
+    transition: 0.5s;
 }
-@media(max-width: 992px){
-    .logo{
+
+@media(max-width: 992px) {
+    .logo {
         padding: 10px 0;
-    margin: -5px 15px;
+        margin: -5px 15px;
     }
-    .toggle
-    {
+    .toggle {
         background: #ff7700;
         display: block;
-    }    
-    header
-    {
+    }
+    header {
         padding: 7px 0;
         background: rgb(236, 118, 50);
-       
-            
-        
     }
-    header ul
-    {
+    header ul {
         display: none;
         width: 100%;
-        top:10px;    
+        top: 10px;
     }
-    header ul.active{
+    header ul.active {
         display: block;
     }
-    
-    header ul li a
-    {
-        margin:-1px;
+    header ul li a {
+        margin: -1px;
         display: block;
         text-align: center;
         color: #262626;
         background: rgb(236, 118, 30);
-
     }
-
 }
 
-
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
 }
-a{
+
+a {
     text-decoration: none !important;
 }
-.footer-main-div{
+
+.footer-main-div {
     width: 100%;
-    height:auto;
+    height: auto;
     margin: auto;
     background: #272727;
     padding: 20px 0;
-
 }
-.footer-social-icons{
-    width:100%;
+
+.footer-social-icons {
+    width: 100%;
     height: auto;
     margin: auto;
-   
 }
-.footer-social-icons ol{
+
+.footer-social-icons ol {
     margin: 0px;
     padding: 0px;
     text-align: center;
 }
-.footer-social-icons ol li{
+
+.footer-social-icons ol li {
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -327,44 +350,52 @@ a{
     border-radius: 100%;
     background: rgba(253, 122, 46, 0.938);
 }
-.footer-social-icons ol li a{
+
+.footer-social-icons ol li a {
     color: #272727;
     font-size: 25px;
     display: block;
 }
-.footer-social-icons ol li a i{
+
+.footer-social-icons ol li a i {
     line-height: 50px;
 }
-.footer-menu-one{
+
+.footer-menu-one {
     width: 100%;
     height: auto;
     margin: auto;
     margin-top: 20px;
 }
-.footer-menu-one ol{
+
+.footer-menu-one ol {
     margin: 0px;
     padding: 0px;
     text-align: center;
 }
-.footer-menu-one ol li{
+
+.footer-menu-one ol li {
     display: inline-block;
     margin: 0px 18px;
 }
-.footer-menu-one ol li a{
+
+.footer-menu-one ol li a {
     font-family: sans-serif;
     font-size: 15px;
     font-weight: 500;
     color: #ffffff;
     text-transform: uppercase;
 }
-.footer-bottom{
+
+.footer-bottom {
     width: 100%;
     height: auto;
     margin: auto;
     background: #f85b1d;
     padding: 1px;
 }
-.footer-bottom p{
+
+.footer-bottom p {
     font-family: sans-serif;
     font-size: 14px;
     text-align: center;
@@ -372,8 +403,3 @@ a{
     font-weight: 500;
     letter-spacing: 1px;
 }
-
-
-
-
-

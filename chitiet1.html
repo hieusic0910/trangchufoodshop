@@ -18,12 +18,13 @@
     <link href="http://allfont.net/allfont.css?fonts=open-sans-light" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('.toggle').click(function () {
+        $(document).ready(function() {
+            $('.toggle').click(function() {
                 $('ul').toggleClass('active');
             })
         })
     </script>
+    <script src="receive.js"></script>
 </head>
 
 <body>
@@ -35,12 +36,12 @@
             <li><a href="menuburger.html">Bánh Burgers</a></li>
             <li><a href="#">Bánh Mì</a></li>
             <li><a href="#">Đồ Uống</a></li>
-            <li><a  class="about" onclick="scrollWin()">About Us</a></li>
-            <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+            <li><a class="about" onclick="scrollWin()">About Us</a></li>
+            <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
         </ul>
-        
+
     </header>
-    
+
     <section class="section">
         <!-- Start thumb -->
         <div class="tbox-slider tbox-slider-1 combo">
@@ -49,8 +50,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="col-md-5">
-                                <img class="img-responsive food_1"
-                                    src="https://mcdonalds.vn/uploads/2018/food/ga-ran/20pcs_chicken_mcwings.png">
+                                <img class="img-responsive food_1" src="https://mcdonalds.vn/uploads/2018/food/ga-ran/20pcs_chicken_mcwings.png">
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                                 <p class="ttitle-head-combo-2 food_1">20 miếng Gà Nuggets™</p>
                                 <p class="tcaption-head-combo-2">Những món ăn có thể chia sẻ cùng bạn bè</p>
                                 <p class="ttitle-head-combo-1 food_1"><b>115,000 VNĐ</b></p>
-                                <button name="food_1" type="button" class="buy" onclick="delivery(name)">Chọn</a>
+                                <button name="food_1" type="button" class="buy" onclick="delivery(name)">Chọn</button>
                             </div>
                         </div>
                     </div>
@@ -97,8 +97,7 @@
                     <a class="hoverfx" href="chitiet2.html">
                         <div class="titem-middle">
                             <a class="hoverfx" href="chitiet2.html">
-                                <img class="img-responsive timg-food-combo-carousel tlist-food"
-                                    src="https://mcdonalds.vn/uploads/2018/food/ga-ran/6-wings.png">
+                                <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/ga-ran/6-wings.png">
                                 <p class="tname-food-combo-carousel">
                                     6 Miếng Cánh Gà
                                     <br>
@@ -113,8 +112,7 @@
                     <a class="hoverfx" href="chitiet3.html">
                         <div class="titem-middle">
                             <a class="hoverfx" href="chitiet3.html">
-                                <img class="img-responsive timg-food-combo-carousel tlist-food"
-                                    src="https://mcdonalds.vn/uploads/2018/food/ga-ran/10-wings.png">
+                                <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/ga-ran/10-wings.png">
                                 <p class="tname-food-combo-carousel">
                                     10 Miếng Cánh Gà
                                     <br>
@@ -129,8 +127,7 @@
                     <a class="hoverfx" href="chitiet4.html">
                         <div class="titem-middle">
                             <a class="hoverfx" href="chitiet4.html">
-                                <img class="img-responsive timg-food-combo-carousel tlist-food"
-                                    src="https://mcdonalds.vn/uploads/2018/food/ga-ran/6pcs_chicken_mcnuggets.png">
+                                <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/ga-ran/6pcs_chicken_mcnuggets.png">
                                 <p class="tname-food-combo-carousel">
                                     6 Miếng Gà Nuggets
                                     <br>
@@ -145,8 +142,7 @@
                     <a class="hoverfx" href="chitiet5.html">
                         <div class="titem-middle">
                             <a class="hoverfx" href="chitiet5.html">
-                                <img class="img-responsive timg-food-combo-carousel tlist-food"
-                                    src="https://mcdonalds.vn/uploads/2018/food/ga-ran/1-ga-ran.png">
+                                <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/ga-ran/1-ga-ran.png">
                                 <p class="tname-food-combo-carousel">
                                     1 Miếng Gà Rán
                                     <br>
@@ -161,8 +157,7 @@
                     <a class="hoverfx" href="chitiet6.html">
                         <div class="titem-middle">
                             <a class="hoverfx" href="chitiet6.html">
-                                <img class="img-responsive timg-food-combo-carousel tlist-food"
-                                    src="https://mcdonalds.vn/uploads/2018/food/ga-ran/3-ga-ran.png">
+                                <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/ga-ran/3-ga-ran.png">
                                 <p class="tname-food-combo-carousel">
                                     3 Miếng Gà Rán
                                     <br>
@@ -177,8 +172,7 @@
                     <a class="hoverfx" href="chitiet7.html">
                         <div class="titem-middle">
                             <a class="hoverfx" href="chitiet7.html">
-                                <img class="img-responsive timg-food-combo-carousel tlist-food"
-                                    src="https://mcdonalds.vn/uploads/2018/food/ga-ran/5-ga-ran.png">
+                                <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/ga-ran/5-ga-ran.png">
                                 <p class="tname-food-combo-carousel">
                                     5 Miếng Gà Rán
                                     <br>
@@ -193,8 +187,7 @@
                     <a class="hoverfx" href="chitiet8.html">
                         <div class="titem-middle">
                             <a class="hoverfx" href="chitiet8.html">
-                                <img class="img-responsive timg-food-combo-carousel tlist-food"
-                                    src="https://mcdonalds.vn/uploads/2018/food/ga-ran/9-ga-ran.png">
+                                <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/ga-ran/9-ga-ran.png">
                                 <p class="tname-food-combo-carousel">
                                     9 Miếng Gà Rán
                                     <br>
@@ -226,12 +219,12 @@
                 <li><a href="menudrink">Đồ Uống</a></li>
             </ol>
         </div>
-        
+
     </div>
     <div class="footer-bottom">
         <p>©2019-2020 TrungHieuTran. All Rights Reserved.</p>
     </div>
-</div>
+    </div>
 </body>
 
 </html>

@@ -1,31 +1,34 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.footer-main-div{
+
+.footer-main-div {
     width: 100%;
-    height:auto;
+    height: auto;
     margin: auto;
     background: #272727;
     padding: 20px 0;
-
 }
-.footer-social-icons{
-    width:100%;
+
+.footer-social-icons {
+    width: 100%;
     height: auto;
     margin: auto;
-   
 }
-.footer-social-icons ol{
+
+.footer-social-icons ol {
     margin: 0px;
     padding: 0px;
     text-align: center;
 }
-.footer-social-icons ol li{
+
+.footer-social-icons ol li {
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -33,44 +36,52 @@ a{
     border-radius: 100%;
     background: rgba(253, 122, 46, 0.938);
 }
-.footer-social-icons ol li a{
+
+.footer-social-icons ol li a {
     color: #272727;
     font-size: 25px;
     display: block;
 }
-.footer-social-icons ol li a i{
+
+.footer-social-icons ol li a i {
     line-height: 50px;
 }
-.footer-menu-one{
+
+.footer-menu-one {
     width: 100%;
     height: auto;
     margin: auto;
     margin-top: 20px;
 }
-.footer-menu-one ol{
+
+.footer-menu-one ol {
     margin: 0px;
     padding: 0px;
     text-align: center;
 }
-.footer-menu-one ol li{
+
+.footer-menu-one ol li {
     display: inline-block;
     margin: 0px 18px;
 }
-.footer-menu-one ol li a{
+
+.footer-menu-one ol li a {
     font-family: sans-serif;
     font-size: 15px;
     font-weight: 500;
     color: #ffffff;
     text-transform: uppercase;
 }
-.footer-bottom{
+
+.footer-bottom {
     width: 100%;
     height: auto;
     margin: auto;
     background: #f85b1d;
     padding: 10px;
 }
-.footer-bottom p{
+
+.footer-bottom p {
     font-family: sans-serif;
     font-size: 14px;
     text-align: center;
@@ -78,4 +89,3 @@ a{
     font-weight: 500;
     letter-spacing: 1px;
 }
-

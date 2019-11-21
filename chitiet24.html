@@ -18,12 +18,13 @@
     <link href="http://allfont.net/allfont.css?fonts=open-sans-light" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script type="text/javascript">
-        $(document).ready(function ()   {
-            $('.toggle').click(function () {
+        $(document).ready(function() {
+            $('.toggle').click(function() {
                 $('ul').toggleClass('active');
             })
         })
     </script>
+    <script src="receive.js"></script>
 </head>
 
 <body>
@@ -35,12 +36,12 @@
             <li><a href="menuburger.html">Bánh Burgers</a></li>
             <li><a href="#">Bánh Mì</a></li>
             <li><a href="#">Đồ Uống</a></li>
-            <li><a  class="about" onclick="scrollWin()">About Us</a></li>
-            <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+            <li><a class="about" onclick="scrollWin()">About Us</a></li>
+            <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
         </ul>
-        
+
     </header>
-    
+
     <section class="section">
         <!-- Start thumb -->
         <div class="tbox-slider tbox-slider-1 combo">
@@ -49,8 +50,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="col-md-5">
-                                <img class="img-responsive food_24"
-                                    src="https://mcdonalds.vn/uploads/2018/food/burgers/bigmac.png">
+                                <img class="img-responsive food_24" src="https://mcdonalds.vn/uploads/2018/food/burgers/bigmac.png">
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                                 <p class="ttitle-head-combo-2 food_24">Big Burger</p>
                                 <p class="tcaption-head-combo-2">Những món ăn có thể chia sẻ cùng bạn bè</p>
                                 <p class="ttitle-head-combo-1 food_24"><b>66,000 VNĐ</b></p>
-                                <a href="#" class="buy">Chọn</a>
+                                <button name="food_24" type="button" class="buy" onclick="delivery(name)">Chọn</button>
                             </div>
                         </div>
                     </div>
@@ -79,53 +79,51 @@
                 <div class="col-md-12">
                     <p class="ttitle-stores">Các món cùng thực đơn</p>
                     <div class="col-md-3 item tbox-item-middle tlist-food">
-                            <a class="hoverfx" href="chitiet21.html">
-                                <div class="titem-middle">
-                                    <a class="hoverfx" href="chitiet21.html">
-                                        <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/burgers/cheese-burger-deluxe.png">
-                                        <p class="tname-food-combo-carousel">
-                                            Bò phô mai đặc biệt
-                                            <br>
-                                            <b>46,000 VNĐ</b>
-                                        </p>
-                                    </a>
-                                    <a href="chitiet21.html" class="showWeb tbutton-food-combo-carousel">Xem chi tiết</a>
-                                </div>
-                    </a>
-                </div>
-                <div class="col-md-3 item tbox-item-middle tlist-food">
-                    <a class="hoverfx" href="chitiet22.html">
-                        <div class="titem-middle">
-                            <a class="hoverfx" href="chitiet22.html">
-                                <img class="img-responsive timg-food-combo-carousel tlist-food"
-                                    src="https://mcdonalds.vn/uploads/2018/food/burgers/double-cheese-burger.png">
-                                <p class="tname-food-combo-carousel">
-                                     Burger 2 lớp bò, phô mai
-                                    <br>
-                                    <b>56,000 VNĐ</b>
-                                </p>
-                            </a>
-                            <a href="chitiet22.html" class="showWeb tbutton-food-combo-carousel">Xem chi tiết</a>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 item tbox-item-middle tlist-food">
-                    <a class="hoverfx" href="chitiet23.html">
-                        <div class="titem-middle">
-                            <a class="hoverfx" href="chitiet23.html">
-                                <img class="img-responsive timg-food-combo-carousel tlist-food"
-                                    src="https://mcdonalds.vn/uploads/2018/food/burgers/mcroyal-with-cheese.png">
-                                <p class="tname-food-combo-carousel">
-                                    Burger bò miếng lớn phô mai
-                                    <br>
-                                    <b>66,000 VNĐ</b>
-                                </p>
-                            </a>
-                            <a href="chitiet23.html" class="showWeb tbutton-food-combo-carousel">Xem chi tiết</a>
-                        </div>
-                    </a>
-                </div>
-                <!-- <div class="col-md-3 item tbox-item-middle tlist-food">
+                        <a class="hoverfx" href="chitiet21.html">
+                            <div class="titem-middle">
+                                <a class="hoverfx" href="chitiet21.html">
+                                    <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/burgers/cheese-burger-deluxe.png">
+                                    <p class="tname-food-combo-carousel">
+                                        Bò phô mai đặc biệt
+                                        <br>
+                                        <b>46,000 VNĐ</b>
+                                    </p>
+                                </a>
+                                <a href="chitiet21.html" class="showWeb tbutton-food-combo-carousel">Xem chi tiết</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 item tbox-item-middle tlist-food">
+                        <a class="hoverfx" href="chitiet22.html">
+                            <div class="titem-middle">
+                                <a class="hoverfx" href="chitiet22.html">
+                                    <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/burgers/double-cheese-burger.png">
+                                    <p class="tname-food-combo-carousel">
+                                        Burger 2 lớp bò, phô mai
+                                        <br>
+                                        <b>56,000 VNĐ</b>
+                                    </p>
+                                </a>
+                                <a href="chitiet22.html" class="showWeb tbutton-food-combo-carousel">Xem chi tiết</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 item tbox-item-middle tlist-food">
+                        <a class="hoverfx" href="chitiet23.html">
+                            <div class="titem-middle">
+                                <a class="hoverfx" href="chitiet23.html">
+                                    <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/burgers/mcroyal-with-cheese.png">
+                                    <p class="tname-food-combo-carousel">
+                                        Burger bò miếng lớn phô mai
+                                        <br>
+                                        <b>66,000 VNĐ</b>
+                                    </p>
+                                </a>
+                                <a href="chitiet23.html" class="showWeb tbutton-food-combo-carousel">Xem chi tiết</a>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- <div class="col-md-3 item tbox-item-middle tlist-food">
                     <a class="hoverfx" href="chitiet24.html">
                         <div class="titem-middle">
                             <a class="hoverfx" href="chitiet24.html">
@@ -141,42 +139,40 @@
                         </div>
                     </a>
                 </div> -->
-                <div class="col-md-3 item tbox-item-middle tlist-food">
-                    <a class="hoverfx" href="chitiet25.html">
-                        <div class="titem-middle">
-                            <a class="hoverfx" href="chitiet25.html">
-                                <img class="img-responsive timg-food-combo-carousel tlist-food"
-                                    src="https://mcdonalds.vn/uploads/2018/food/burgers/mcchicken-deluxe.png">
-                                <p class="tname-food-combo-carousel">
-                                    Gà phô mai đặc biệt 
-                                    <br>
-                                    <b>66,000 VNĐ</b>
-                                </p>
-                            </a>
-                            <a href="chitiet25.html" class="showWeb tbutton-food-combo-carousel">Xem chi tiết</a>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-3 item tbox-item-middle tlist-food">
-                    <a class="hoverfx" href="chitiet26.html">
-                        <div class="titem-middle">
-                            <a class="hoverfx" href="chitiet26.html">
-                                <img class="img-responsive timg-food-combo-carousel tlist-food"
-                                    src="https://mcdonalds.vn/uploads/2018/food/burgers/mcspicy-deluxe.png">
-                                <p class="tname-food-combo-carousel">
-                                    Burger phi-lê gà đặc biệt
-                                    <br>
-                                    <b>76,000 VNĐ</b>
-                                </p>
-                            </a>
-                            <a href="chitiet26.html" class="showWeb tbutton-food-combo-carousel">Xem chi tiết</a>
-                        </div>
-                    </a>
-                </div>
-               
+                    <div class="col-md-3 item tbox-item-middle tlist-food">
+                        <a class="hoverfx" href="chitiet25.html">
+                            <div class="titem-middle">
+                                <a class="hoverfx" href="chitiet25.html">
+                                    <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/burgers/mcchicken-deluxe.png">
+                                    <p class="tname-food-combo-carousel">
+                                        Gà phô mai đặc biệt
+                                        <br>
+                                        <b>66,000 VNĐ</b>
+                                    </p>
+                                </a>
+                                <a href="chitiet25.html" class="showWeb tbutton-food-combo-carousel">Xem chi tiết</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 item tbox-item-middle tlist-food">
+                        <a class="hoverfx" href="chitiet26.html">
+                            <div class="titem-middle">
+                                <a class="hoverfx" href="chitiet26.html">
+                                    <img class="img-responsive timg-food-combo-carousel tlist-food" src="https://mcdonalds.vn/uploads/2018/food/burgers/mcspicy-deluxe.png">
+                                    <p class="tname-food-combo-carousel">
+                                        Burger phi-lê gà đặc biệt
+                                        <br>
+                                        <b>76,000 VNĐ</b>
+                                    </p>
+                                </a>
+                                <a href="chitiet26.html" class="showWeb tbutton-food-combo-carousel">Xem chi tiết</a>
+                            </div>
+                        </a>
+                    </div>
 
+
+                </div>
             </div>
-        </div>
         </div>
     </section>
     <div class="footer-main-div">
@@ -195,12 +191,12 @@
                 <li><a href="menudrink">Đồ Uống</a></li>
             </ol>
         </div>
-        
+
     </div>
     <div class="footer-bottom">
         <p>©2019-2020 TrungHieuTran. All Rights Reserved.</p>
     </div>
-</div>
+    </div>
 </body>
 
 </html>
